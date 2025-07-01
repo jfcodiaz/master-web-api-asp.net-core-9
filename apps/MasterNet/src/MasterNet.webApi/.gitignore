@@ -1,0 +1,63 @@
+## ASP.NET Core / .NET Projects
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.out
+*.log
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Environment and secrets
+.env
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# Logs
+*.log
+logs/
+
+# Publish output
+publish/
+wwwroot/lib/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose*.env
+
+# Coverage reports
+coverage/
+coverage*.json
+lcov.info
+TestResults/

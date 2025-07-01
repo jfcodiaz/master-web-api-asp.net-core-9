@@ -1,0 +1,27 @@
+{
+    "name": "Web API ASP.NET Core 9",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/course",
+    "remoteUser": "root",
+    "shutdownAction": "stopCompose",
+    "updateRemoteUserUID": true,
+    "overrideCommand": false,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "pkief.material-icon-theme",
+                "ms-dotnettools.csdevkit",
+                "ms-dotnettools.csharp",
+                "ms-dotnettools.vscodeintellicode-csharp",
+                "esbenp.prettier-vscode",
+                "alexcvzz.vscode-sqlite"
+            ],
+            "settings": {
+                "terminal.integrated.cwd": "/course"
+            },
+            "workbench.startupEditor": "readme"
+        }
+    },
+    "postAttachCommand": ""
+}
