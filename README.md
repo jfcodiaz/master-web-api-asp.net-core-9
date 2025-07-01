@@ -25,5 +25,9 @@ dotnet sln add src/MasterNet.webApi/MasterNet.webApi.csproj
 # Si todo fue bien se podra hacer un build sin problemas
 dotnet build
 
+# Correr el proyecto en local :
+
+dotnet run --project src/MasterNet.webApi
+
 ```
 
